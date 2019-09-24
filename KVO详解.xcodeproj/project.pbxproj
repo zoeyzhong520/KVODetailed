@@ -15,6 +15,9 @@
 		364E34402339F2D2007A6B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E343F2339F2D2007A6B96 /* main.m */; };
 		364E344A2339F2D2007A6B96 /* KVO__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E34492339F2D2007A6B96 /* KVO__Tests.m */; };
 		364E34552339F2D2007A6B96 /* KVO__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E34542339F2D2007A6B96 /* KVO__UITests.m */; };
+		364E34642339F382007A6B96 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E34632339F382007A6B96 /* Person.m */; };
+		364E34672339F5BC007A6B96 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E34662339F5BC007A6B96 /* Dog.m */; };
+		364E346A2339F831007A6B96 /* NSObject+ZZJKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E34692339F831007A6B96 /* NSObject+ZZJKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		364E34502339F2D2007A6B96 /* KVO详解UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO详解UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		364E34542339F2D2007A6B96 /* KVO__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO__UITests.m; sourceTree = "<group>"; };
 		364E34562339F2D2007A6B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364E34622339F382007A6B96 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		364E34632339F382007A6B96 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		364E34652339F5BC007A6B96 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		364E34662339F5BC007A6B96 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		364E34682339F831007A6B96 /* NSObject+ZZJKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZZJKVO.h"; sourceTree = "<group>"; };
+		364E34692339F831007A6B96 /* NSObject+ZZJKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZZJKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				364E343B2339F2D2007A6B96 /* LaunchScreen.storyboard */,
 				364E343E2339F2D2007A6B96 /* Info.plist */,
 				364E343F2339F2D2007A6B96 /* main.m */,
+				364E34622339F382007A6B96 /* Person.h */,
+				364E34632339F382007A6B96 /* Person.m */,
+				364E34652339F5BC007A6B96 /* Dog.h */,
+				364E34662339F5BC007A6B96 /* Dog.m */,
+				364E34682339F831007A6B96 /* NSObject+ZZJKVO.h */,
+				364E34692339F831007A6B96 /* NSObject+ZZJKVO.m */,
 			);
 			path = "KVO详解";
 			sourceTree = "<group>";
@@ -263,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				364E34352339F2C5007A6B96 /* ViewController.m in Sources */,
+				364E346A2339F831007A6B96 /* NSObject+ZZJKVO.m in Sources */,
 				364E34402339F2D2007A6B96 /* main.m in Sources */,
+				364E34672339F5BC007A6B96 /* Dog.m in Sources */,
+				364E34642339F382007A6B96 /* Person.m in Sources */,
 				364E34322339F2C5007A6B96 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
